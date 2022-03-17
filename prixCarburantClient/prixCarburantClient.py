@@ -147,7 +147,7 @@ class PrixCarburantClient(object):
                  "https://static.data.gouv.fr/resources/prix-des-carburants-en-france/20181117-111538/active-stations.csv",
                  "station.csv")
             self.stations = self.loadStation('station.csv')
-            self.downloadFile("https://donnees.roulez-eco.fr/opendata/jour",
+            self.downloadFile("https://donnees.roulez-eco.fr/opendata/instantane",
                           "PrixCarburants_instantane.zip")
             self.unzipFile("PrixCarburants_instantane.zip", './PrixCarburantsData')
             self.xmlData = "./PrixCarburantsData/PrixCarburants_instantane.xml"
