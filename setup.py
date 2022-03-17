@@ -14,7 +14,7 @@ setup(
     description="StationEssence client",
     long_description=README,
     long_description_content_type="text/markdown",
-    url="https://github.com/ryann72/essence",
+    url="https://github.com/rmickael62/essence",
     author="Maxime Wantiez, Yann RITTER",
     author_email=" ",
     license="MIT",
